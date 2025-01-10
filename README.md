@@ -1,38 +1,31 @@
-This repository contains a Python-based face detection project leveraging a pre-trained model from Google Teachable Machine. It offers an easy-to-implement solution for detecting faces in images and video streams using machine learning techniques.
+This repository contains a Python-based face detection project that utilizes a pre-trained model from Google Teachable Machine. It provides an easy-to-implement solution for detecting faces in both images and live video streams using machine learning techniques.
 
-## Features
-- Detects faces in images and in real-time too.
-- Utilizes a pre-trained model from Google Teachable Machine.
-- Beginner-friendly and easy to customize.
+Features
+Detects faces in static images and real-time video streams.
+Uses a pre-trained model from Google Teachable Machine.
+Beginner-friendly and highly customizable.
+Prerequisites
+Python 3.7 or higher
+OpenCV library
+NumPy library
+A pre-trained face detection model from Google Teachable Machine
+Installation Instructions
+Step 1: Open Google Chrome and navigate to the Google Teachable Machine website. Click on Get Started.
 
+Step 2: Under the New Project section, select Image Model.
 
-## Prerequisites
-- Python 3.7 or higher
-- OpenCV library
-- NumPy library
-- A pre-trained face model from Google Teachable Machine
+Step 3: Choose the Standard Image Model option.
 
+Step 4: Define the necessary classes and upload images using your webcam or Google Drive. Train the model and observe the comparison percentages for the selected classes.
 
--Installlation of facefinder+ 
--Step1: Open chrome and search for Google Teachable Machines website(https://teachablemachine.withgoogle.com/) and click on Get started. 
+Step 5: After training, click Export the Model.
 
+Step 6: In the TensorFlow tab, select Download the Model. A .zip file will be downloaded.
 
--Step2: And under the New Project section, select the Image Model folder.
+Step 7: To run the project locally, open your Python code editor (e.g., PyCharm) and paste the provided code.
 
+Step 8: Extract the .zip file, copy the .h5 model file and the .txt class labels file, and place them in your project directory.
 
--Step3: Select the Standard Image Model option.
+Step 9: Open the terminal and install the required libraries for the project. Ensure you're using the correct Python and TensorFlow versions to avoid syntax errors.
 
-
--Step4: Determine the Required classes and upload the photos using webcam and google drive, And Train the Model. You could see the comparision percentage for the given classes.
-
-
--Step5: Click on Export the Model.
--Step6: Under the tensorflow tab, select Download the model option. And a .zip file would be downloaded. 
-
-
--Step8: To run it in local system, paste the Given code in pycharm or any other code Interpreter.
--Step9: Open the .zip file and copy the .h5 file and .txt file. And the save the files to the project path to Run the code.
-
--Step10: Open the terminal and install the required libraries for the project.
-Tip-- chech the right python versions and tensorflow versions to avoid the syntax errors.
--Step11: Run the code and, Hence the facefinder+ works.
+Step 10: Run the code, and the FaceFinder+ model should work for face detection.
